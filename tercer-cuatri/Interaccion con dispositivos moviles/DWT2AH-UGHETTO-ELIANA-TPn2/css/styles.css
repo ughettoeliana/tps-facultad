@@ -1,57 +1,117 @@
 * {
-    margin: auto;
-    padding: 0;
-    font-family: "Lucida Grande";
-    font-size: 16px;
-    box-sizing: border-box;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    z-index: 3;
-    background-color: #bfdebf;
-    height: 43px;
-    max-width: 1024px;
-    position: sticky;
-    top: 0;
-  }
+  margin: auto;
+  padding: 0;
+  font-family: "Lucida Grande";
+  font-size: 16px;
+  box-sizing: border-box;
+}
 
-  .navbar > .container-fluid {
-    background-color: #bfdebf;
-  }
+.semi-circle {
+  max-width: 1024px;
+  height: 31.3%;
+  border-radius: 0 0 70% 70%;
+  background-color: #bfdebf;
+  padding: 10px 1px;
+}
 
-button.navbar-toggler{
-    border: none;
+.banner{
+  width: 35%;
+  background-image: url("/assets/banner-img-movile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 105px;
+}
+
+.white-title {
+  font-size: 2em;
+  letter-spacing: 0.3em;
+  color: white;
+  z-index: 2;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  z-index: 3;
+  background-color: #bfdebf;
+  height: 43px;
+  max-width: 1024px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar > .container-fluid {
+  background-color: #bfdebf;
+}
+
+button.navbar-toggler {
+  border: none;
+}
+
+.offcanvas.show {
+  background-color: #bfdebf;
+}
+
+a.nav-link{
+  color: black;
+}
+
+.navbar-nav .dropdown-menu{
+  background-color: #bfdebf;
+  border: none;
+}
+
+img,
+svg {
+  min-width: 16%;
+  width: 16%;
+}
+
+.btn.green-btn {
+  background-color: #878553;
+  border: #878553;
+  color: white;
+}
+
+/* video */
+
+.video-container {
+  text-align: center;
+}
+
+.video-container .video{
+  margin: 1em auto;
+  width: 100%;
 }
 
 
-/*   
-  .navbar .nav-items {
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    height: 5%;
-    max-width: 100%;
-    position: fixed;
-    top: 0;
-  }
-  
-  .nav-items li {
-    display: inline-block;
-    padding: 0 16px;
-    position: relative;
-  }
-  
-  .nav-item {
-    color: black;
-    text-decoration: none;
-    font-size: 1.2em;
-    line-height: 2.4em;
-    text-align: center;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-  } */
+/* footer */
+
+footer {
+  background-color: #ede8d7;
+}
+
+.icono{
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-left: 1.8em;
+}
+
+.icono.whatsapp{
+  background-image: url("/assets/whatsapp-icon.png");
+}
+
+.icono.gmail{
+  background-image: url("/assets/gmail-icon.png");
+}
+
+.icono.maps{
+  background-image: url("/assets/google-maps-icon.png");
+}
