@@ -8,13 +8,13 @@
 
 .semi-circle {
   max-width: 1024px;
-  height: 31.3%;
+  height: 54.3%;
   border-radius: 0 0 70% 70%;
   background-color: #bfdebf;
   padding: 10px 1px;
 }
 
-.banner{
+.banner {
   width: 35%;
   background-image: url("/assets/banner-img-movile.png");
   background-repeat: no-repeat;
@@ -54,15 +54,12 @@ button.navbar-toggler {
   border: none;
 }
 
-.offcanvas.show {
-  background-color: #bfdebf;
-}
 
-a.nav-link{
+a.nav-link {
   color: black;
 }
 
-.navbar-nav .dropdown-menu{
+.navbar-nav .dropdown-menu {
   background-color: #bfdebf;
   border: none;
 }
@@ -73,23 +70,16 @@ svg {
   width: 16%;
 }
 
+.badge.bg-new{
+  background-color: #c9edc9;
+  color: rgb(63, 63, 63);
+}
+
 .btn.green-btn {
   background-color: #878553;
   border: #878553;
   color: white;
 }
-
-/* video */
-
-.video-container {
-  text-align: center;
-}
-
-.video-container .video{
-  margin: 1em auto;
-  width: 100%;
-}
-
 
 /* footer */
 
@@ -97,21 +87,83 @@ footer {
   background-color: #ede8d7;
 }
 
-.icono{
+
+li {
+  list-style: none;
+  margin: 1em 0;
+}
+
+.icono {
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
   padding-left: 1.8em;
 }
 
-.icono.whatsapp{
+.icono.whatsapp {
   background-image: url("/assets/whatsapp-icon.png");
 }
 
-.icono.gmail{
+.icono.gmail {
   background-image: url("/assets/gmail-icon.png");
 }
 
-.icono.maps{
+.icono.maps {
   background-image: url("/assets/google-maps-icon.png");
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+
+.map-responsive {
+  padding-bottom: 40%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px) {
+  .banner {
+    background-image: url("/assets/banner-img-tablet.png");
+    padding: 125px;
+  }
+
+  .semi-circle {
+    height: 65%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .white-title {
+    top: 21%;
+  }
+
+  .banner {
+    background-image: url("/assets/banner-img-pc.png");
+    padding: 161px;
+  }
+
+  .semi-circle {
+    height: 83%;
+  }
 }
