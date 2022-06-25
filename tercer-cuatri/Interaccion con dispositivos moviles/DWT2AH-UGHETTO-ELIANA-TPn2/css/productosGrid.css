@@ -62,43 +62,32 @@ svg {
   width: 16%;
 }
 
-.badge.bg-new {
-  background-color: #c9edc9;
-  color: rgb(63, 63, 63);
-}
-
-.btn.green-btn {
-  background-color: #878553;
-  border: #878553;
-  color: white;
-}
-
-
-/* Informacion de la pagina hecha con grid*/
+/* Informacion de la pagina */
 
 .page-info{ 
-  margin: 2rem auto;
-  max-width: 1000px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
-  gap: 40px;
-  padding-left: 1em;
-  padding-right: 1em;
+    margin: 2rem auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .img-container{
-  width: 100%;
-  display: block;
-  text-align: center;
+    width: 100%;
+    display: block;
+    text-align: center;
 }
 
 .img-container img{
-  width: 100%; 
+    width: 100%; 
 }
+
 
 /* Fin de la info */
 
-/* Cards de los productos hechos con grid*/
+/* Cards de los productos */
 
 .grid-cards {
   margin: 2rem auto;
@@ -140,61 +129,28 @@ svg {
 }
 /* Fin de las cards */
 
-
 /* Empieza el footer */
-
-.footer-bg {
-  background-color: #ede8d7;
-
-}
 
 .footer-grid {
   margin: 2em auto 0;
+  background-color: #ede8d7;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
   gap: 40px;
   padding: 2rem;
 }
 
-li {
-  list-style: none;
-  margin: 1em 0;
+dl,
+ol,
+ul {
+  margin: 0;
+}
+ol,
+ul {
+  padding: 0;
 }
 
-.icono {
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: contain;
-  padding-left: 1.8em;
-}
-
-.icono.whatsapp {
-  background-image: url("/assets/whatsapp-icon.png");
-}
-
-.icono.gmail {
-  background-image: url("/assets/gmail-icon.png");
-}
-
-.icono.maps {
-  background-image: url("/assets/google-maps-icon.png");
-}
-
-.map-responsive {
-  padding-bottom: 40%;
-  position: relative;
-  height: 0;
-}
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
 /* fin del footer */
-
 
 /* media queries */
 
@@ -240,7 +196,7 @@ li {
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .semi-circle {
     height: 42%;
   }
