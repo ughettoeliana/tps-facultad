@@ -1,0 +1,157 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: Tp1-onepage.ai
+Modo de color: Color RGB
+Perfil de color: sRGB IEC61966-2.1
+Unidades de regla: p’xeles
+Dimensiones de la mesa de trabajo: 1366 px x 4149 px
+Mostrar im‡genes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edici—n de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Myriad Pro (OTF)
+Shobhika Bold (OTF)
+Lucida Grande (TrueType)
+Lucida Grande Bold (TrueType)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Im‡genes enlazadas:
+
+/Users/elianaughetto/Downloads/whatsapp.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 1024K, 512 por 512 p’xeles
+Dimensiones: 41 por 41 puntos 
+Resoluci—n: 899,122 por 899,122 p’xeles por pulgada
+
+
+/Users/elianaughetto/Downloads/instagram (1).png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 1024K, 512 por 512 p’xeles
+Dimensiones: 42 por 42 puntos 
+Resoluci—n: 877,714 por 877,714 p’xeles por pulgada
+
+
+/Users/elianaughetto/Downloads/facebook (1).png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 1024K, 512 por 512 p’xeles
+Dimensiones: 40,6 por 40,6 puntos 
+Resoluci—n: 907,98 por 907,98 p’xeles por pulgada
+
+
+/Users/elianaughetto/Documents/davinci/2do-Cuatri/Diseno Grafico para Web/Sin titulo-1.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 10461K, 1890 por 1417 p’xeles
+Dimensiones: 1365,808 por 1023,995 puntos 
+Resoluci—n: 99,633 por 99,633 p’xeles por pulgada
+
+
+/Users/elianaughetto/Downloads/grapes.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 57K, 131 por 113 p’xeles
+Dimensiones: 119,407 por 103 puntos 
+Resoluci—n: 78,99 por 78,99 p’xeles por pulgada
+
+
+/Users/elianaughetto/Downloads/orange.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 41K, 104 por 103 p’xeles
+Dimensiones: 88,854 por 88 puntos 
+Resoluci—n: 84,273 por 84,273 p’xeles por pulgada
+
+
+/Users/elianaughetto/Downloads/Fondo copia 2.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 43K, 106 por 106 p’xeles
+Dimensiones: 89 por 89 puntos 
+Resoluci—n: 85,753 por 85,753 p’xeles por pulgada
+
+
+/Users/elianaughetto/Downloads/Fondo copia.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 61K, 131 por 121 p’xeles
+Dimensiones: 97 por 89,595 puntos 
+Resoluci—n: 97,237 por 97,237 p’xeles por pulgada
+
+
+/Users/elianaughetto/Documents/kiwi.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 36K, 122 por 77 p’xeles
+Dimensiones: 122 por 77 puntos 
+Resoluci—n: 72 por 72 p’xeles por pulgada
+
+
+/Users/elianaughetto/Downloads/rasberries.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 25K, 109 por 61 p’xeles
+Dimensiones: 109 por 61 puntos 
+Resoluci—n: 72 por 72 p’xeles por pulgada
+
+
+/Users/elianaughetto/Documents/davinci/2do-Cuatri/Diseno Grafico para Web/Capa 3.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 32642K, 3867 por 2161 p’xeles
+Dimensiones: 928,08 por 518,64 puntos 
+Resoluci—n: 300 por 300 p’xeles por pulgada
+
+
+/Users/elianaughetto/Downloads/anana recorte.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 1749K, 622 por 720 p’xeles
+Dimensiones: 150,317 por 174 puntos 
+Resoluci—n: 297,931 por 297,931 p’xeles por pulgada
+
+
+/Users/elianaughetto/Downloads/jugo.png
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 1893K, 609 por 796 p’xeles
+Dimensiones: 140,774 por 184 puntos 
+Resoluci—n: 311,478 por 311,478 p’xeles por pulgada

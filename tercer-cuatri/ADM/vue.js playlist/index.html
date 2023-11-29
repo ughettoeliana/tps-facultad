@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  
+  <body>
+    <div id="app">
+      <main :class="weatherClass">
+        <template>
+          <city-searchbar :on-search="onSearch"
+          ></city-searchbar>
+        </template>
+        <div id='errorText' class="errorText" v-if="hasError">
+          <p>We didn't find the city '{{ searchQuery }}', try again with another one</p>
+        </div>
+
+        <div id='home' class="weather-wrap" v-if="hasWeather">
+          <div class="location-box">
+            <h1 class="location">
+              {{ activeCity?.name }}, {{ activeCity?.country }}
+            </h1>
+            <div class="date">{{ dateBuilder() }}</div>
+          </div>
+          <div class="weather-box">
+            <div class="temp">{{ activeCity?.temp }}°c</div>
+            <div class="weather">{{ activeCity?.weather }}</div>
+          </div>
+        </div>
+        <section id="saved">
+        </section>
+        <hr>
+        <h2 class="white-text">Recent searchs</h2>
+        <section id='recents' class="cityHistory-wrap">
+          <div id="components-demo">
+            <template>
+              <city-card
+                :city-history="cityHistory"
+                class="cityHistory-div"
+                v-for="(item, index) in cityHistory.slice().reverse()"
+                v-bind:key="index"
+                v-bind:name="item.name"
+                v-bind:temp="item.temp"
+                v-bind:weather="item.weather"
+                v-bind:index="index"
+                v-bind:item="item"
+              ></city-card>
+            </template>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "terapia-existencial",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.69.1",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "firebase": "^10.4.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  }
+}

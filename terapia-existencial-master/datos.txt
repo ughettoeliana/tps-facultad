@@ -1,0 +1,20 @@
+Carrera: Diseño y Programacion Web;
+Materia: Cliente Web Mobile;
+Docente: Santiago Gallino;
+Entrega: 1er Parcial
+Cuatrimestre: 4
+Año: 2023
+Turno: Noche
+Comisión: B
+Nombre: Eliana Carolina
+Apellido: Ughetto
+
+/**
+
+Usuario del Admin: admin@admin.com
+Contraseña: admin123
+
+**/
+
+
+Hola profe, le aviso que yo hice las reglas de firebase pero la regla para /hiredServices/{document=**}  no me estaba funcionando, asique por ahora lo deje con la regla que genera firebase al crear la base de datos. Busque y no encontre la solucion para este proble, si usted ve el error y me puede dar una mano le agradeceria mucho. Yo sigo buscando como hacer para solucionarlo de todas formas. Gracias
